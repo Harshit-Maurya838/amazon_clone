@@ -1,0 +1,22 @@
+{
+  "name": "amazon_clone",
+  "version": "1.0.0",
+  "description": "Developing fullstack development of amazon e-commerce website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harshit-Maurya838/amazon_clone.git"
+  },
+  "keywords": [
+    "e-commerce"
+  ],
+  "author": "Harshit Maurya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harshit-Maurya838/amazon_clone/issues"
+  },
+  "homepage": "https://github.com/Harshit-Maurya838/amazon_clone#readme"
+}
