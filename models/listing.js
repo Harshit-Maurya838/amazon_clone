@@ -18,7 +18,7 @@ const listingSchema = new Schema({
         type: Number,
         required: true
     },
-    radings: {
+    ratings: {
         type: Number,
         default: 0,
         set: value => Math.round(value * 10 ) / 10,

@@ -1,7 +1,11 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const Listing = require('./models/listing');
 const app = express();
 require('dotenv').config();
+
+const listingRouter = require('./router/listing');
+
 
 port = process.env.PORT || 8080;
 
@@ -15,6 +19,13 @@ async function connectToMongo(){
     }
 }
 connectToMongo();
+
+// Middleware
+app.use(express.json());
+app.use(express.urlencoded({extended:true}));
+
+// Routes
+app.use('/listings', listingRouter);
 
 
 app.get('/',(req,res)=>{
