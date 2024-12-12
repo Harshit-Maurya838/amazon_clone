@@ -4,7 +4,8 @@
   "description": "Developing fullstack development of amazon e-commerce website",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "build:css": "tailwindcss build public/styles.css -o public/output.css"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,13 @@
   "homepage": "https://github.com/Harshit-Maurya838/amazon_clone#readme",
   "dependencies": {
     "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "ejs-mate": "^4.0.0",
     "express": "^4.21.2",
+    "method-override": "^3.0.0",
     "mongoose": "^8.8.4"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.16"
   }
 }

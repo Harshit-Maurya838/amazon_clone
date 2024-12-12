@@ -1,6 +1,9 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const Listing = require('./models/listing');
+const ejsMate = require('ejs-mate');
+const path = require('path');
+const methodOverride = require('method-override');
 const app = express();
 require('dotenv').config();
 
@@ -21,6 +24,13 @@ async function connectToMongo(){
 connectToMongo();
 
 // Middleware
+app.use(express.static(path.join(__dirname,'public')));
+app.engine('ejs',ejsMate);
+app.set('view engine','ejs');
+app.set('views',path.join(__dirname,'views'));
+app.use(methodOverride('_method'));
+
+// parsing the body
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 
@@ -29,7 +39,7 @@ app.use('/listings', listingRouter);
 
 
 app.get('/',(req,res)=>{
-    res.send('Hello World');
+    res.render('layouts/boilerplate');
 })
 
 app.listen(port,()=>{
