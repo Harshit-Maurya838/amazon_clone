@@ -1,3 +1,31 @@
-node_modules
+# Node modules
+node_modules/
+
+# Tailwind CSS build files
+/public/output.css
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment files
 .env
+
+# Vscode settings
+.vscode/
+
+# npm package-lock or yarn lock
+package-lock.json
+yarn.lock
+
+# Build directory (if you have one)
+dist/
+
+# Temporary files
+*.swp
+
+#init file
 init
