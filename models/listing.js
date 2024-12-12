@@ -23,6 +23,11 @@ const listingSchema = new Schema({
         default: 0,
         set: value => Math.round(value * 10 ) / 10,
     },
+    // reviews:
+    // [{
+    //     type: mongoose.Schema.Types.ObjectId,
+    //     ref: 'Review'
+    // }],
     category: {
         type: String,
         required: true
