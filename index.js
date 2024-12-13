@@ -39,7 +39,7 @@ app.use('/listings', listingRouter);
 
 
 app.get('/',(req,res)=>{
-    res.render('layouts/boilerplate');
+    res.redirect('/listings');
 })
 
 app.listen(port,()=>{

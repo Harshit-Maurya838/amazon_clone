@@ -1,3 +1,16 @@
 *{
+    box-sizing: border-box;
     font-family: 'Amazon Ember', sans-serif !important;
+}
+
+.nav-bg-gradient{
+    background: linear-gradient(92.41deg, #003d32, #04734b);
+}
+
+.nav-ele-border{
+    border: none;
+    border-radius: 3px;
+}
+.nav-ele-border:hover{
+    border: 1px solid #fff;
 }

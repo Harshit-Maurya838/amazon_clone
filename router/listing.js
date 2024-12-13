@@ -5,7 +5,7 @@ const router = express.Router();
 // Getting all data
 router.get('/',async(req,res)=>{
     const listings = await Listing.find();
-    res.send(listings);
+    res.render('./listings/home.ejs',{listings});
 });
 
 // Getting data by id
