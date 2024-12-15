@@ -64,3 +64,16 @@
     height: 14px;
     background-position: -172px -255px;
 }
+
+
+.lang-img{
+    background-position: -77px -24px;
+    width: 15px;
+    height: 15px;
+}
+
+.double-arrow{
+    background-position: -77px -80px;
+    width: 15.2px;
+    height: 12px;
+}
