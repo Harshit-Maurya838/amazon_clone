@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com.Spend less.Smile more.</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <main class="container">
+        <nav id="navbar">
+            <div class="nav_left">
+                <div class="logo"></div>
+                <div class="location">
+                    <p><span class="loc_deliver">Deliver to</span> <br><span class="loc_icon"></span> India</p>
+                </div>
+            </div>
+            <div class="nav_fill">
+                <form action="" id="search_bar">
+                    <select name="type">
+                        <option value="All" selected>All</option>
+                    </select>
+                    <input type="text" name="search" id="" placeholder="Search Amazon" autocomplete="off"/>
+                    <button id="search_btn"><img src="img/Search.png" alt=""></button>
+                </form>
+            </div>
+            <div class="nav_right">
+                <div class="lang">
+                    <img src="img/EN.png" alt="" class="flag">
+                    <p>&nbsp;EN<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"/></svg></p>
+                </div>
+                <div class="account">
+                    <p>Hello,sign in <br><strong>Accounts & Lists</strong><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"/></svg></p>
+                </div>
+                <div class="orders">
+                    <p>Returns <br><strong>& Orders</strong></p>
+                </div>
+                <div class="cart">
+                    <p><img src="img/Cart.png" alt=""><strong style="font-size: 14px;">Cart</strong></p>
+                </div>
+            </div>
+        </nav>
+        <div class="nav_main">
+            <div class="nav-menu">
+                <p><img src="img/Hamburger.png" alt="">&nbsp;<strong style="font-size: 14px;">All</strong></p>
+            </div>
+            <a href="" class="nav_link">Today's Deals</a>
+            <a href="" class="nav_link">Customers Service</a>
+            <a href="" class="nav_link">Registry</a>
+            <a href="" class="nav_link">Gift Cards</a>
+            <a href="" class="nav_link">Sell</a>
+        </div>
+        <div class="main_content">
+            <section class="hero">
+                <div class="box">
+                    <button class="slider-btn1" onclick="goPrev()"><</button>
+                    <img src="img/Hero.jpg" alt="" class="slide-img">
+                    <img src="img/Hero_2.jpg" alt="" class="slide-img">
+                    <img src="img/Hero_3.jpg" alt="" class="slide-img">
+                    <img src="img/Hero_4.jpg" alt="" class="slide-img">
+                    <img src="img/Hero_5.jpg" alt="" class="slide-img">
+                    <img src="img/hero_image.jpg" alt="" class="slide-img">
+                    <button class="slider-btn2" onclick="goNext()">></button>
+                </div>
+            </section>
+            <section class="products">
+                <div class="site_intro">
+                    <p>You are on amazon.com.You can also shop on Amazon India for millions of products with fast local delivery. <a href="">Click here to go to amazon.in</a> </p>
+                </div>
+                <div class="shop_cards">
+                    <div class="gaming_acc card">
+                        <p>Gaming accessories</p>
+                        <figure>
+                            <img src="img/cards_img/Headphone.jpg" alt="">
+                            <figcaption>Headsets</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/cards_img/keyboard.jpg" alt="">
+                            <figcaption>Keyboards</figcaption>
+                        </figure>
+                        <br>
+                        <figure>
+                            <img src="img/cards_img/mouse.jpg" alt="">
+                            <figcaption>Computer Mice</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/cards_img/Gaminging_chair.jpg" alt="">
+                            <figcaption>Chairs</figcaption>
+                        </figure>
+                        <div class="link">
+                            <a href="">See More</a>
+                        </div>
+                    </div>
+                    <div class="fashion card">
+                        <p>Shop deals in Fashion</p>
+                        <figure>
+                            <img src="img/cards_img/Jeans.jpg" alt="">
+                            <figcaption>Jeans under $50</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/cards_img/tops.jpg" alt="">
+                            <figcaption>Tops under $25</figcaption>
+                        </figure>
+                        <br>
+                        <figure>
+                            <img src="img/cards_img/dresses.jpg" alt="">
+                            <figcaption>Dresses under $30</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/cards_img/shoes.jpg" alt="">
+                            <figcaption>Shoes under $50</figcaption>
+                        </figure>
+                        <div class="link">
+                            <a href="">See All Deals</a>
+                        </div>
+                    </div>
+                    <div class="deal_pc card">
+                        <p>Deals in PCs</p>
+                        <figure>
+                            <img src="img/cards_img/Cpu.jpg" alt="">
+                        </figure>
+                        <div class="link">
+                            <a href="">See More</a>
+                        </div>
+                    </div>
+                    <div class="home_acc card">
+                        <p>Refresh your space</p>
+                        <figure>
+                            <img src="img/cards_img/dining.jpg" alt="">
+                            <figcaption>Dining</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/cards_img/home.jpg" alt="">
+                            <figcaption>Home</figcaption>
+                        </figure>
+                        <br>
+                        <figure>
+                            <img src="img/cards_img/kitchen.jpg" alt="">
+                            <figcaption>Kitchen Mice</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/cards_img/health.jpg" alt="">
+                            <figcaption>Health and Beauty</figcaption>
+                        </figure>
+                        <div class="link">
+                            <a href="">See More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="shop_cards">
+                    <div class="card">
+                        <p>Look your best this season</p>
+                        <figure>
+                            <img src="img/cards_img/for_her.jpg" alt="">
+                            <figcaption>For Her</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/cards_img/for_him.jpg" alt="">
+                            <figcaption>For Him</figcaption>
+                        </figure>
+                        <br>
+                        <figure>
+                            <img src="img/cards_img/for_teens.jpg" alt="">
+                            <figcaption>For Teens</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/cards_img/for_kids.jpg" alt="">
+                            <figcaption>For Kids</figcaption>
+                        </figure>
+                        <div class="link">
+                            <a href="">See More</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p>Gaming merchandise</p>
+                        <figure>
+                            <img src="img/cards_img/tshirt.jpg" alt="">
+                            <figcaption>Apparel</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/cards_img/hats.jpg" alt="">
+                            <figcaption>Hats</figcaption>
+                        </figure>
+                        <br>
+                        <figure>
+                            <img src="img/cards_img/action.jpg" alt="">
+                            <figcaption>Action Figures</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/cards_img/mugs.jpg" alt="">
+                            <figcaption>Mugs</figcaption>
+                        </figure>
+                        <div class="link">
+                            <a href="">See more</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p>Have more fun with family</p>
+                        <figure>
+                            <img src="img/cards_img/out_play.jpg" alt="">
+                            <figcaption>Outdoor Play Sets</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/cards_img/learn_play.jpg" alt="">
+                            <figcaption>Learning toys</figcaption>
+                        </figure>
+                        <br>
+                        <figure>
+                            <img src="img/cards_img/action_2.jpg" alt="">
+                            <figcaption>Action Figures</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/cards_img/toys.jpg" alt="">
+                            <figcaption>Pretend Play Toys</figcaption>
+                        </figure>
+                        <div class="link">
+                            <a href="">See More</a>
+                        </div>
+                    </div>
+                    <div class="deal_pc card">
+                        <p>Upgrade your office furniture</p>
+                        <figure>
+                            <img src="img/cards_img/office_chair.jpg" alt="">
+                        </figure>
+                        <div class="link">
+                            <a href="">Shop now</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <div class="last_sign">
+        <div class="sign_container">
+            <p>See personalized recommendations</p>
+            <button>Sign in</button>
+            <p>New customer? <a href="">Start here.</a></p>
+        </div>
+    </div>
+    <footer>
+        <a href="#navbar"><div class="back_to_top">
+            Back To Top
+        </div></a>
+        <div class="footer_line"></div>
+        <div class="footer_data">
+            <div class="footer_link foot_1">
+                <span class="footer_head">Get to Know Us</span>
+                <a href="#">Careers</a>
+                <a href="#">Blog</a>
+                <a href="#">About Amazon</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Amazon Devices</a>
+                <a href="#">Amazon Science</a>
+            </div>
+            <div class="footer_link_line"></div>
+            <div class="footer_link">
+                <span class="footer_head">Make Money with Us</span>
+                <a href="#">Sell products on Amazon</a>
+                <a href="#">Sell on Amazon Business</a>
+                <a href="#">Sell apps on Amazon</a>
+                <a href="#">Become an Affiliate</a>
+                <a href="#">Advertise Your Products</a>
+                <a href="#">Self-Publish with Us</a>
+                <a href="#">Host an Amazon Hub</a>
+                <a href="#">See More Make Money with Us</a>
+            </div>
+            <div class="footer_link_line"></div>
+            <div class="footer_link foot_2">
+                <span class="footer_head">Amazon Payment Products</span>
+                <a href="#">Amazon Business Card</a>
+                <a href="#">Shop with Points</a>
+                <a href="#">Reload Your Balance</a>
+                <a href="#">Amazon Currecy Converter</a>
+            </div>
+            <div class="footer_link_line"></div>
+            <div class="footer_link">
+                <span class="footer_head">Let Us Help You</span>
+                <a href="#">Amazon and COVID-19</a>
+                <a href="#">Your Account</a>
+                <a href="#">Your Orders</a>
+                <a href="#">Shipping Rates & Policies</a>
+                <a href="#">Return & Replacements</a>
+                <a href="#">Manage Your Content And Devices</a>
+                <a href="#">Help</a>
+            </div>
+        </div>
+        <div class="footer_line"></div>
+        <hr style="background-color: #999; opacity: 0.2;">
+        <div class="footer_setting">
+            <div class="logo"></div>
+            <div class="setting_btns">
+                <div class="language_set set">
+                    <img src="img/vecteezy_grid-globe_1198021.png" alt="">
+                    <span>English</span>
+                </div>
+                <div class="Currency_set set">
+                    <span>$</span>
+                    <span>USD - U.S. Dollar</span>
+                </div>
+                <div class="country_set set">
+                    <img src="img/EN.png" alt="">
+                    <span>United States</span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright_tab">
+            <p><a href="">Condition of Use</a><a href="">Privacy Notice</a>&ensp;<a href="">Consumer Health Data Privacy Disclosure</a>&ensp;<a href="">Your Ad Privacy Choices</a></p>
+            <p>&copy; 1996-2024, Amazon.com, Inc. or its affiliates</p>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
